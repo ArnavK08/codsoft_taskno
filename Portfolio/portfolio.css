@@ -80,7 +80,7 @@ header .socials {
 
 /* CARDS / BOXES */
 .clickable-box {
-  background: #5e60ce;
+  background: #8b98e1;
   color: #fff;
   border-radius: 16px;
   padding: 1.4rem 1.6rem; /* Increased padding for content */
@@ -88,8 +88,12 @@ header .socials {
   transition: transform 0.25s, box-shadow 0.25s;
   cursor: pointer;
 }
+.clickable-box a {
+  text-decoration: none;
+  color: white;
+}
 .clickable-box:hover {
-  background: #fca311;
+  background: #ffeebb;
   color: #333548;
   box-shadow: 0 8px 24px rgba(94,96,206,0.16);
   transform: translateY(-8px) scale(1.035);
