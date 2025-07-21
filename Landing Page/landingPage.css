@@ -134,6 +134,15 @@ main li {
   background-color:#004D40;
 }
 
+img {
+  width: 50px;
+}
+
+#size {
+  max-width: 100px;
+  max-height: 100px;
+}
+
 footer {
   background-color: #6b2889;
 ;
